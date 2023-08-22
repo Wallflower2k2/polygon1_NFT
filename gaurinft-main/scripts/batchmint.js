@@ -3,7 +3,7 @@ const gauriNFTContractJSON = require("../artifacts/contracts/GauriNFT.sol/GauriN
 
 const contract_address = "0x616E9ed7E928fc95E68555bB94809e178D6C3AA9"; // Replace with the actual contract address
 const gauriNFTABI = gauriNFTContractJSON.abi;
-const walletAddress = "0xB48c24e5d5697550593b862C666Ae59e5B5671Be"; // Replace with your wallet address
+const walletAddress = "0x3Fc5fb342Aec4773ce3C4FB70FC357f22E2c1dE1"; // Replace with your wallet address
 
 async function main() {
     const gauriNFTContract = await hre.ethers.getContractAt(gauriNFTABI, contract_address);
