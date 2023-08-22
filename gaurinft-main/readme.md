@@ -35,6 +35,11 @@ The SpaceNFT project demonstrates the end-to-end process of creating, deploying,
 2. Navigate to the project directory: `cd SpaceNFT`
 3. Install dependencies: `npm install`
 
+## Deployment
+### Generate NFTs
+1. Use DALLE 2 or Midjourney to generate a 5-item collection of space-themed images.
+2. Save the generated images to a local directory.
+
 ### Deploy ERC721/ERC1155
 1. Modify the `SpaceNFT.sol` contract to include the generated IPFS URIs and prompt descriptions.
 2. Deploy the modified contract to the Goerli Ethereum Testnet.
